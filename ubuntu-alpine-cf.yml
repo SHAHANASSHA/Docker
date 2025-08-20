@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  ubuntu1:
+    image: ubuntu:24.04
+    container_name: ubuntu_container
+    command: sleep infinity
+
+  alpine1:
+    image: alpine:3.19
+    container_name: alpine_container
+    command: sleep infinity
+
+
