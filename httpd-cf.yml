@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  httpd1:
+    image: httpd:alpine
+    container_name: httpd_container
+    ports:
+      - "9876:80"
+    volumes:
+      - efg:/data
+volumes:
+  efg:
